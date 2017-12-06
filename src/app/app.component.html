@@ -1,12 +1,16 @@
 <!--The content below is only a placeholder and can be replaced.-->
 <div style="text-align:center">
   <h1 class='title'>Diana McNulty: </h1><h2 class='title'>Web Developer & Designer</h2>
-  <div id='template-container'><app-gallery></app-gallery></div>
+  <div id='template-container'>
+    <router-outlet></router-outlet>
+  </div>
 
 <footer>
-  <a href=''>About Me </a>
-  <span>|</span>
-  <a href=''> Gallery</a>
+  <a routerLink="">Home</a>
+  <span>  |  </span>
+  <a routerLink="/about">About Me</a>
+  <span>  |  </span>
+  <a routerLink="/gallery">Gallery</a>
   <br>
   <span class='copyright'>&copy; 2017 Diana McNulty</span>
 </footer>
