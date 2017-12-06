@@ -10,6 +10,8 @@ import { CarouselComponent } from './carousel/carousel.component';
 import { GalleryComponent } from './gallery/gallery.component';
 import { SitesService } from './services/sites/sites.service';
 import { AboutComponent } from './about/about.component';
+import { SiteComponent } from './site/site.component';
+import { GalleryRoutingModule} from './gallery/gallery-routing.module';
 
 
 @NgModule({
@@ -18,19 +20,17 @@ import { AboutComponent } from './about/about.component';
     WelcomeComponent,
     CarouselComponent,
     GalleryComponent,
-    AboutComponent
+    AboutComponent,
+    SiteComponent
   ],
   imports: [
     BrowserModule,
     Ng2CarouselamosModule,
+    GalleryRoutingModule,
     RouterModule.forRoot([
         {
             path: 'about',
             component: AboutComponent
-        },
-        {
-            path: 'gallery',
-            component: GalleryComponent
         },
         {
             path: '',

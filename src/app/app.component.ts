@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import {SITES} from './gallery/sites';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +8,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Portfolio';
+  sites = SITES;
 }
