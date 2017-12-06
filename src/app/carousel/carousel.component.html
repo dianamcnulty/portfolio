@@ -19,8 +19,8 @@
       <img src="assets/images/rightarrow.png" id="right" class='arrows' />
     </ng-template>
     <ng-template #item let-item let-i="index">
-      <div class="items">
-         <img src="{{ item.screenshot }}">
+      <div class="items" *ngFor="let item of items">
+         <img src="{{ item.screenShot }}">
        </div>
   </ng-template>
 

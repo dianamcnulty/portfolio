@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-
+import { SitesService } from './../services/sites/sites.service';
 
 @Component({
   selector: 'app-carousel',
@@ -8,14 +8,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CarouselComponent implements OnInit {
   items: Array<any> = []
-  constructor() {
-    this.items = [
-        { screenshot: 'assets/images/ScreenShot-flights.png' },
-        { screenshot: 'assets/images/ScreenShot-Map.png' },
-      ] }
+  constructor(private sitesService: SitesService) { }
+
 
   ngOnInit() {
-
+    this.items = this.sitesService.getSites();
   }
 
 }

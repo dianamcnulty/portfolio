@@ -7,6 +7,7 @@ import { AppComponent } from './app.component';
 import { WelcomeComponent } from './welcome/welcome.component';
 import { CarouselComponent } from './carousel/carousel.component';
 import { GalleryComponent } from './gallery/gallery.component';
+import { SitesService } from './services/sites/sites.service';
 
 
 @NgModule({
@@ -20,7 +21,7 @@ import { GalleryComponent } from './gallery/gallery.component';
     BrowserModule,
     Ng2CarouselamosModule
   ],
-  providers: [],
+  providers: [SitesService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
