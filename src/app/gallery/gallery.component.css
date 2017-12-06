@@ -12,18 +12,3 @@
   max-width: 19%;
   margin-top: 25px;
 }
-#site-details {
-  float: right;
-  margin-bottom: 50px;
-  text-align: left;
-}
-label {
-  font-weight: bold;
-}
-.site-container {
-  float: right;
-  width:80%;
-}
-p {
-  margin-top: 3px;
-}
