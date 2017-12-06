@@ -1,14 +1,21 @@
+.template-container {
+  margin-bottom: 45px;
+}
 .copyright {
   text-align: right;
   margin-right: 10px;
   font-size: 8px;
 }
 footer {
-  position: absolute;
+  position: fixed;
+  left: 0;
+  bottom: 0;
   bottom: 0;
   text-align: center;
   display: block;
   width: 100%;
+  background-color: white;
+  border: 1px black solid;
 }
 .title {
   display: inline-block;

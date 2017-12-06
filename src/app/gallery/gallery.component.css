@@ -1,0 +1,29 @@
+.thumbnail {
+  width: 100%;
+}
+#screenshot {
+  width: 70%;
+}
+.thumbnail-group {
+  float:left;
+  display: inline-block;
+  width: 115px;
+  height: 100%;
+  max-width: 19%;
+  margin-top: 25px;
+}
+#site-details {
+  float: right;
+  margin-bottom: 50px;
+  text-align: left;
+}
+label {
+  font-weight: bold;
+}
+.site-container {
+  float: right;
+  width:80%;
+}
+p {
+  margin-top: 3px;
+}
