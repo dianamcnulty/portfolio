@@ -8,22 +8,17 @@ import { SITES } from './sites';
   styleUrls: ['./site.component.css']
 })
 export class SiteComponent implements OnInit {
-siteIndex: number;
-sites: Array<any> = SITES;
-currentSite: Array<any> = []
+  siteID: number;
+  sites: Array<any> = SITES;
+  currentSite: any = {}
 
   constructor(private route: ActivatedRoute) { }
 
   ngOnInit() {
-    this.route.params.forEach( param => this.siteIndex = param.id )
-    // need to find current site object using the site id
-    this.sites.forEach(site => {
-      if (site.id === this.siteIndex) {
-        this.currentSite = site
-        return this.currentSite
-      }
-  })
-
+    this.route.params.forEach( param => this.siteID = param.id )
+    console.log('siteID is', this.siteID)
+    this.currentSite = this.sites[this.siteID]
+  console.log('currentSite is', this.currentSite)
   }
 
 }
