@@ -9,7 +9,9 @@
     <p>Feel free to create a test account and look around. You don't need to use an email address to log in, so you can make up any user name that you want (provided it's not already taken).</p>
     <label>Involvement:</label>
     <p id='involvement'>{{currentSite.involvement}}</p>
+    <div *ngIf='currentSite.gitHubRepo'>
     <label>Code Repository:</label>
     <p>Like looking at code? If you want to browse the code, feel free to visit <a id='github-link' href={{currentSite.gitHubRepo}}>my github repo for this site.</a>Please respect that I use my own artwork in most of these designs. I just ask that you don't use any images without permission<p>
+    </p>
   </div>
 </div>

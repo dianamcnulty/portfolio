@@ -12,5 +12,18 @@ export const SITES = [{
     involvement: 'Solo Project: User interface, and API: designed and implemented by Diana',
     siteURL: 'https://dianamcnulty.github.io/flightlogclient/',
     gitHubRepo: 'https://github.com/dianamcnulty/flightlogclient',
-    screenShot: 'assets/images/ScreenShot-flights.png'}
+    screenShot: 'assets/images/ScreenShot-flights.png'},
+    {id: 2,
+      title: 'Jewelry Portfolio',
+      description: "This clean and simple design is used to showcase the work of a jewelry designer who uses recycled materials to create works of art. Thumbnails on the right are clickable and bring up an image and description in the content section. (much like the page you're on right now). I also provided the photography.",
+      involvement: 'Solo Project: User interface designed and implemented by Diana',
+      siteURL: 'https://dianamcnulty.github.io/Jewelry-Maker-s-Portfolio/',
+      gitHubRepo: 'https://github.com/dianamcnulty/Jewelry-Maker-s-Portfolio',
+      screenShot: 'assets/images/ScreenShot-jewelry.png'},
+    {id: 3,
+      title: "Musician's Website",
+      description: "This is actually my website for my musical endeavors. This project entailed designing and branding a site that was hosted on blogger.com. I added custom styling via css, and embedded third party widgets to enable users to purchase cd's and sheet music, or listed to music on the site.",
+      involvement: 'Imagery, and Branding and third party plug-ins implemented by Diana. Site navigation and layout is inherited from the blogging platform.',
+      siteURL: 'http://www.dianamcnulty.com',
+      screenShot: 'assets/images/ScreenShot-flutist.png'}
 ]
