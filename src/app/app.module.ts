@@ -8,7 +8,7 @@ import { AppComponent } from './app.component';
 import { WelcomeComponent } from './welcome/welcome.component';
 import { CarouselComponent } from './carousel/carousel.component';
 import { GalleryComponent } from './gallery/gallery.component';
-import { SitesService } from './services/sites/sites.service';
+// import { SitesService } from './services/sites/sites.service';
 import { AboutComponent } from './about/about.component';
 import { SiteComponent } from './site/site.component';
 import { GalleryRoutingModule} from './gallery/gallery-routing.module';
@@ -38,7 +38,7 @@ import { GalleryRoutingModule} from './gallery/gallery-routing.module';
         }
     ])
   ],
-  providers: [SitesService],
+  // providers: [SitesService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

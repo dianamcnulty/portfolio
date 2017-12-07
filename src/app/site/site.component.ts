@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute }   from '@angular/router';
-import { SitesService } from './../services/sites/sites.service';
+import { SITES } from './sites';
 
 @Component({
   selector: 'app-site',
@@ -9,16 +9,16 @@ import { SitesService } from './../services/sites/sites.service';
 })
 export class SiteComponent implements OnInit {
 siteIndex: number;
+sites: Array<any> = SITES;
 currentSite: Array<any> = []
 
-  constructor(private route: ActivatedRoute, private sitesService: SitesService) { }
+  constructor(private route: ActivatedRoute) { }
 
   ngOnInit() {
     this.route.params.forEach( param => this.siteIndex = param.id )
-    sites = this.sitesService.getSites();
     // need to find current site object using the site id
-    sites.forEach(site => {
-      if (site.id === siteIndex) {
+    this.sites.forEach(site => {
+      if (site.id === this.siteIndex) {
         this.currentSite = site
         return this.currentSite
       }

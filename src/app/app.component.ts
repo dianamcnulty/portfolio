@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import {SITES} from './gallery/sites';
+import {SITES} from './site/sites';
 
 @Component({
   selector: 'app-root',

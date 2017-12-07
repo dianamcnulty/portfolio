@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { SitesService } from './../services/sites/sites.service';
+import { SITES } from '../site/sites';
 
 @Component({
   selector: 'app-gallery',
@@ -8,12 +8,11 @@ import { SitesService } from './../services/sites/sites.service';
 })
 export class GalleryComponent implements OnInit {
 
-  sites: Array<any> = []
-  constructor(private sitesService: SitesService) { }
+  sites= SITES;
+  constructor() { }
 
 
   ngOnInit() {
-    this.sites = this.sitesService.getSites();
-    console.log('sites is', this.sites)
+    console.log('sites- gallery is ', this.sites)
   }
 }
