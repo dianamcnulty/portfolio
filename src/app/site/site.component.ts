@@ -15,10 +15,8 @@ export class SiteComponent implements OnInit {
   constructor(private route: ActivatedRoute) { }
 
   ngOnInit() {
-    this.route.params.forEach( param => this.siteID = param.id )
-    console.log('siteID is', this.siteID)
-    this.currentSite = this.sites[this.siteID]
-  console.log('currentSite is', this.currentSite)
-  }
-
+    this.route.params.forEach( param =>{
+      this.currentSite = SITES.find( site => {
+          return site.id === parseInt(param.id)
+      }
 }
