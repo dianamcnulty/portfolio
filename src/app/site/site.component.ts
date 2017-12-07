@@ -10,7 +10,7 @@ import { SITES } from './sites';
 export class SiteComponent implements OnInit {
   siteID: number;
   sites: Array<any> = SITES;
-  currentSite: any = {}
+  currentSite: any = {};
 
   constructor(private route: ActivatedRoute) { }
 
@@ -18,5 +18,7 @@ export class SiteComponent implements OnInit {
     this.route.params.forEach( param =>{
       this.currentSite = SITES.find( site => {
           return site.id === parseInt(param.id)
-      }
+      });
+    })
+  }
 }
