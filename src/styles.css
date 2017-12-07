@@ -1,1 +1,26 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css?family=Life+Savers');
+
+
+html {
+  background-image: url("./assets/images/starry.png");
+  color: #d9f5fc;
+  background-repeat: no-repeat;
+  background-size: auto;
+  min-height:100%;
+  font-weight: 100;
+  font-family: 'Life Savers'
+}
+h1, h2 {
+  font-weight: normal;
+  margin-right: 5px;
+}
+h3 {
+  font-weight: normal;
+}
+p {
+  font-weight: 200;
+}
+a {
+  color: #ffeac6;
+}

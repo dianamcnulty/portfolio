@@ -1,3 +1,4 @@
+
 .template-container {
   margin-bottom: 45px;
 }
@@ -14,7 +15,7 @@ footer {
   text-align: center;
   display: block;
   width: 100%;
-  background-color: white;
+  background-color: black;
   border: 1px black solid;
 }
 .title {
