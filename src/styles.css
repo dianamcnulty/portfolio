@@ -4,7 +4,7 @@
 
 html {
   background-image: url("./assets/images/starry.png");
-  color: #d9f5fc;
+  color: #ffeac6;
   background-repeat: no-repeat;
   background-size: auto;
   min-height:100%;
@@ -22,5 +22,5 @@ p {
   font-weight: 200;
 }
 a {
-  color: #ffeac6;
+  color: #d9f5fc;
 }
