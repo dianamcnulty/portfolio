@@ -12,16 +12,17 @@
     [$item]="item"
   >
   </div>
+  <ng-template #item let-item let-i="index">
+    <div class="items" *ngFor="let item of items">
+       <img class='pic' src="{{ item.screenShot }}">
+     </div>
+</ng-template>
   <ng-template #prev>
       <img src="assets/images/leftarrow.png" id="left" class='arrows' />
     </ng-template>
     <ng-template #next>
       <img src="assets/images/rightarrow.png" id="right" class='arrows' />
     </ng-template>
-    <ng-template #item let-item let-i="index">
-      <div class="items" *ngFor="let item of items">
-         <img src="{{ item.screenShot }}">
-       </div>
-  </ng-template>
+
 
 </div>

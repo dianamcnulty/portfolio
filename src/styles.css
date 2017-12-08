@@ -1,5 +1,6 @@
 /* You can add global styles to this file, and also import other style files */
 @import url('https://fonts.googleapis.com/css?family=Life+Savers');
+@import url('https://fonts.googleapis.com/css?family=Sacramento');
 
 
 html {
@@ -9,11 +10,17 @@ html {
   background-size: auto;
   min-height:100%;
   font-weight: 100;
-  font-family: 'Life Savers'
+  font-family: 'Life Savers';
+}
+h1 {
+  font-family: 'Sacramento';
+  font-weight: normal;
+  font-size: 45px;
+
 }
 h1, h2 {
   font-weight: normal;
-  margin-right: 5px;
+  /*margin-right: 5px;*/
 }
 h3 {
   font-weight: normal;
@@ -23,4 +30,21 @@ p {
 }
 a {
   color: #d9f5fc;
+}
+.button {
+  box-shadow: rgb(255, 227, 255) -1px 0px 50px 1px;
+  background: linear-gradient(rgb(236, 250, 215) 5%, rgb(206, 196, 242) 100%) rgb(236, 250, 215);
+  border-radius: 4px;
+  border: 1px solid rgb(255, 255, 255);
+  display: inline-block;
+  cursor: pointer;
+  color: rgb(14, 10, 115);
+  padding: 13px 32px;
+  text-shadow: rgb(255, 196, 48) 1px 1px 18px;
+  font-family: 'Life Savers';
+  font-size: 12px;
+  margin: 15px;
+}
+.button:hover, a:hover, .thumbnail:hover {
+  box-shadow: rgb(255, 227, 255) -1px 0px 80px 1px;
 }
