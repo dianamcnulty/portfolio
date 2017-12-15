@@ -1,6 +1,7 @@
 .thumbnail {
   width: 100%;
   cursor: pointer;
+  margin: 10px;
 }
 #screenshot {
   width: 70%;

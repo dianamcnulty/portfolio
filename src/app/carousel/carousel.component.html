@@ -14,7 +14,7 @@
   </div>
   <ng-template #item let-item let-i="index">
     <div class="items" *ngFor="let item of items">
-       <img class='pic' src="{{ item.screenShot }}">
+       <a href={{item.siteURL}} target="_blank"><img class='pic' src="{{ item.screenShot }}"></a>
      </div>
 </ng-template>
   <ng-template #prev>

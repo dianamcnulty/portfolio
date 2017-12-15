@@ -1,4 +1,4 @@
 <div class='thumbnail-group' id='thumbnail-group' >
-  <img *ngFor="let site of sites" class='thumbnail' src={{site.screenShot}} data-id={{site.id}} routerLink="/gallery/{{site.id}}">
+  <img *ngFor="let site of sites" class='thumbnail' src={{site.screenShot}} target="_blank" data-id={{site.id}} routerLink="/gallery/{{site.id}}">
 </div>
 <router-outlet></router-outlet>

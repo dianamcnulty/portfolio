@@ -7,7 +7,7 @@ html {
   background-image: url("./assets/images/starry.png");
   color: #ffeac6;
   background-repeat: no-repeat;
-  background-size: auto;
+  background-size: cover;
   min-height:100%;
   font-weight: 100;
   font-family: 'Life Savers';
@@ -20,7 +20,7 @@ h1 {
 }
 h1, h2 {
   font-weight: normal;
-  /*margin-right: 5px;*/
+  font-family: 'Sacramento';
 }
 h3 {
   font-weight: normal;
