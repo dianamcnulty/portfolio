@@ -25,7 +25,7 @@ export const SITES = [{
       description: "This is actually my own website for my musical endeavors. This project entailed designing and branding a site that was hosted on blogger.com. I added custom styling via css, and embedded third party widgets to enable users to purchase cd's and sheet music, or listen to music on the site. (For what it's worth, the cover art for sheetmusic and CD's on this site are also my designs.)",
       involvement: 'Imagery, and Branding and third party plug-ins were implemented by Diana. Site navigation and layout is inherited from the blogging platform.',
       siteURL: 'http://www.dianamcnulty.com',
-      screenShot: 'assets/images/ScreenShot-flutist.png'}
+      screenShot: 'assets/images/ScreenShot-flutist.png'},
     {id: 4,
       title: "Flute Quintet's Website",
       description: "Before I learned to code, I designed and branded this site using WIX, a platform for creating websites with a 'drag and drop' interface. The flute group wanted a site that was modern and 'sassy' and had all the features that musicians need, such as a 'news' page, sound clips, contact form and all the other features that most modern websites require.",
